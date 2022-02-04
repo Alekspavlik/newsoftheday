@@ -9,7 +9,12 @@
 </head>
 <body>
 
-<h1>Роман снова нихуя не делает</h1>
+<form action="" method="post">
+    <input type="text" name="name">
+    <input type="submit">
+</form>
+
+<?php echo $_POST['name']?>
 
 </body>
 </html>
